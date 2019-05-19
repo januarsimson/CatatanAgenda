@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher_round"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <TextView
+           android:id="@+id/tvTim1"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="nama"
+           android:textStyle="bold" />
+
+       <TextView
+           android:id="@+id/tvSkor"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="alamat"
+           android:textStyle="bold" />
+
+       <TextView
+           android:id="@+id/tvTim2"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="area"
+           android:textStyle="bold" />
+       <TextView
+           android:id="@+id/jumlah_kamar"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="Jumlah Kamar"
+           android:textStyle="bold" />
+       <TextView
+           android:id="@+id/harga"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="Harga"
+           android:textStyle="bold" />
+   </LinearLayout>
+</LinearLayout>
